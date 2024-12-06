@@ -13,6 +13,14 @@
     padding-bottom: 40px;
 }
 
+.header:hover {
+    transform: scale(1.1);
+    position: relative;
+    top: 40px;
+    right: 50px;
+    box-shadow: 5px 5px 20px rgb(90, 85, 85);
+}
+
 .footer {
     padding-bottom: 25px;
     padding-top: 10px;
@@ -37,6 +45,7 @@
 
 .header p {
     margin-top: 8px;
+    text-align: justify;
 }
 
 
@@ -45,7 +54,7 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: #588fcb;
-    padding: 10px 10px;
+    padding: 30px 30px;
 }
 
 .photo_nom {
@@ -274,10 +283,6 @@ span {
         margin: 15px;
     }
 
-    .middle {
-        grid-template-columns: 1fr; 
-    }
-
     .photo_nom, .contact, .formation, .autoformation, .savoirs_etre {
         align-items: center; 
         margin-bottom: 20px; 
@@ -318,4 +323,5 @@ span {
         display: flex;
         flex-direction: row;
     }
+
 }
