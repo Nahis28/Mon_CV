@@ -6,6 +6,7 @@
 .header, .footer {
     background-color: #dee9f5;
     width: 100%;
+    transition-duration: 0.5s;
 }
 
 .header {
@@ -15,6 +16,7 @@
 
 .header:hover {
     transform: scale(1.1);
+    transition-duration: 0.5s;
     position: relative;
     top: 40px;
     right: 50px;
